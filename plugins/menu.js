@@ -58,13 +58,20 @@ cmd(
         }
       }
 
+      
       let madeMenu = `👋 *Hello  ${pushname}*
 
 
 | *MAIN COMMANDS* |
     ▫️.alive
     ▫️.menu
-    
+    ▫️.ai <text>
+    ▫️.system
+    ▫️.owner
+| *DOWNLOAD COMMANDS* |
+    ▫️.song <text>
+    ▫️.video <text>
+    ▫️.fb <link>
 | *GROUP COMMANDS* |
 ${menu.group}
 | *OWNER COMMANDS* |
@@ -73,14 +80,15 @@ ${menu.group}
 | *CONVERT COMMANDS* |
     ▫️.sticker <reply img>
     ▫️.img <reply sticker>
-    
+    ▫️.tr <lang><text>
+    ▫️.tts <text>
 | *SEARCH COMMANDS* |
 ${menu.search}
 
 
 ~🥶𝐌𝐚𝐝𝐞 𝐛𝐲 PINk_QUEEN_MD🥶~
 
-> CHAMINDU MENU MSG
+> CHAMINDU  MENU MSG
 `;
 await robin.sendPresenceUpdate('recording', from);
 await robin.sendMessage(from, { audio: { url: 'https://github.com/ransika2008/Img-2/raw/refs/heads/main/Adio/Top%205%20Trending%20Songs%202025%20%23shorts%20%23trending%20%23song%20%23viralvideo.mp3' }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
