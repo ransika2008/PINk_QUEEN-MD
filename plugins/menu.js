@@ -64,13 +64,7 @@ cmd(
 | *MAIN COMMANDS* |
     ▫️.alive
     ▫️.menu
-    ▫️.ai <text>
-    ▫️.system
-    ▫️.owner
-| *DOWNLOAD COMMANDS* |
-    ▫️.song <text>
-    ▫️.video <text>
-    ▫️.fb <link>
+    
 | *GROUP COMMANDS* |
 ${menu.group}
 | *OWNER COMMANDS* |
@@ -79,19 +73,18 @@ ${menu.group}
 | *CONVERT COMMANDS* |
     ▫️.sticker <reply img>
     ▫️.img <reply sticker>
-    ▫️.tr <lang><text>
-    ▫️.tts <text>
+    
 | *SEARCH COMMANDS* |
 ${menu.search}
 
 
 ~🥶𝐌𝐚𝐝𝐞 𝐛𝐲 PINk_QUEEN_MD🥶~
 
-> PINk_QUEEN_MD MENU MSG
+> CHAMINDU MENU MSG
 `;
 await robin.sendPresenceUpdate('recording', from);
 await robin.sendMessage(from, { audio: { url: 'https://github.com/ransika2008/Img-2/raw/refs/heads/main/Adio/Top%205%20Trending%20Songs%202025%20%23shorts%20%23trending%20%23song%20%23viralvideo.mp3' }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
-await robin.sendMessage(from,{sticker: { url : 'https://github.com/ransika2008/Img-2/raw/refs/heads/main/File%20from%20%F0%9D%93%A8.%F0%9D%93%9C%20%F0%9D%93%92%F0%9D%93%97%F0%9D%93%9C%F0%9D%93%98%F0%9D%93%9D%F0%9D%93%93%F0%9D%93%A4' },package: 'S_I_H_I_L_E_L'},{ quoted: mek })   
+await robin.sendMessage(from,{sticker: { url : 'https://github.com/ransika2008/Img-2/raw/refs/heads/main/Filhttps://github.com/ransika2008/Img3/raw/refs/heads/main/PINk_QUEEN_MDgn.img' },package: 'S_I_H_I_L_E_L'},{ quoted: mek })   
 
 
       await robin.sendMessage(
